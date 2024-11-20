@@ -1,0 +1,18 @@
+import facebookicon from "./facebook.svg"
+import hero from "./hero.png"
+import instagram from "./instagram.svg"
+import post1 from "./post1.png"
+import post2 from "./post2.png"
+import post3 from "./post3.png"
+import post4 from "./post4.png"
+import post5 from "./post5.png"
+import post6 from "./post6.png"
+import post7 from "./post7.png"
+import post8 from "./post8.png"
+import student1 from "./student1.png"
+import student2 from "./student2.png"
+import student3 from "./student3.png"
+import twitter from "./twitter.svg"
+import bgelement1 from "./bgelement1.png"
+
+export {facebookicon, twitter,hero, instagram,post1,post2,post3,post4,post5,post6,post7,post8 , student1,student2,student3,bgelement1}
