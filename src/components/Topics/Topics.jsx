@@ -2,7 +2,7 @@ import React from "react";
 import "./Topics.css";
 
 const Topics = () => {
-  return <div></div>;
+  return <div>Topics</div>;
 };
 
 export default Topics;

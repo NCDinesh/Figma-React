@@ -1,5 +1,16 @@
+import { Header, Info, Topics, Blog, Testimonials, Footer } from "./components";
+
 function App() {
-  return <>Hello World!</>;
+  return (
+    <>
+      <Header />
+      <Topics />
+      <Info />
+      <Blog />
+      <Testimonials />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

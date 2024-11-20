@@ -2,7 +2,7 @@ import React from "react";
 import "./Info.css";
 
 const Info = () => {
-  return <div></div>;
+  return <div>Info</div>;
 };
 
 export default Info;
