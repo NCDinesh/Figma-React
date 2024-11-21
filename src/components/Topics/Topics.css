@@ -1,5 +1,38 @@
-/* .black{
-  background-color: black;
-  color: white;
-  padding: 0;
-} */
+#topics .topic-image img{
+  width: 550px;
+  object-fit: cover;
+}
+
+#topics .topics-list{
+  list-style:none;
+  margin-left: 24px;
+  padding: 0px;
+
+}
+
+#topics .topics-list li{
+  font-family:"Alegreya",sans-serif ;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 24px 0;
+  position: relative;
+}
+
+#topics .topics-list li::before{
+  content: "";
+  position:absolute;
+  background-color: var(--red-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#topics .content-container{
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+
+}
