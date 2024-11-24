@@ -36,3 +36,13 @@
   padding: 12px;
 
 }
+
+#topics .wrapper{
+  position: relative;
+}
+
+#topics .wrapper .bg-element-1{
+  position: absolute;
+  right: -24px;
+  bottom: 0px;
+}

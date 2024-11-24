@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Topics.css";
+import group from "../../assets/Group.svg";
 import {
   post1,
   post2,
@@ -36,7 +37,7 @@ const Topics = () => {
             <img src={currentImage} alt="" />
           </div>
         </div>
-        <img src={bgelement1} className="bg-element-1" alt="" />
+        <img src={group} className="bg-element-1" alt="" />
       </div>
     </section>
   );
