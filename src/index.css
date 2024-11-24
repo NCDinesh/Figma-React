@@ -69,3 +69,29 @@ section .content-container{
 .red{
   color: var(--red-color);
 }
+
+
+/* Tablet version */
+@media (max-width: 1040px){
+  .wrapper{
+    max-width: 694px;
+  }
+}
+
+/* Smartphone version */
+@media (max-width:720px){
+  .wrapper{
+    padding: 0 32px;
+  }
+  section h2{
+    font-size: 24px;
+
+  }
+  
+  section h2::after{
+    width: 50px;
+    bottom: -10px;
+  }
+}
+
+

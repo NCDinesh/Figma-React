@@ -27,3 +27,28 @@
   left: 0;
   top: 0;
 }
+
+/* Smartphone version */
+@media (max-width: 720px) {
+  #info .content-container{
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  #info .content-container img{
+    height: 100px;
+  }
+
+  #info .info-content .amount{
+    font-size: 30px;
+  }
+
+  #info .info-content .type{
+    font-size: 24px;
+  }
+
+  #info .wrapper .bg-element-2{
+    left: 32px;
+  }
+
+}
