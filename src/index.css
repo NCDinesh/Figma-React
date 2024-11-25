@@ -35,6 +35,10 @@ section h2{
   position:relative;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 section h2::after{
   content: " ";
   position: absolute;

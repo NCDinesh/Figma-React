@@ -56,3 +56,25 @@ header .cta .demo-btn{
   padding: 10px 32px;
 
 }
+
+
+/* Tablet Version */
+@media (max-width: 1040px) {
+  header .cta{
+    width: 356px;
+  }
+}
+
+
+/* smartphone version */
+@media (max-width: 720px) {
+  header .wrapper .cta{
+    width: unset;
+    right: 32px;
+    left: 32px ;
+  }  
+
+  header .wrapper .cta h1{
+    font-size: 32px;
+  }
+}
