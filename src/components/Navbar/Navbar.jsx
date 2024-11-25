@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import menuicon from "../../assets/menuicon.svg";
 import closeicon from "../../assets/closeicon.png";
 
 const Navbar = () => {
+  const [Isactive, setIsactive] = useState(false);
   return (
     <>
       <nav>
@@ -25,28 +26,36 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="menu-icon">
+        <div onClick={() => setIsactive(true)} className="menu-icon">
           <img src={menuicon} alt="" />
         </div>
       </nav>
 
-      <div className="mobile-menu-container">
-        <div className="close-icon">
+      <div className={`mobile-menu-container ${Isactive ? "active" : ""}`}>
+        <div onClick={() => setIsactive(false)} className="close-icon">
           <img src={closeicon} alt="" />
         </div>
 
         <ul className="menu-items">
           <li>
-            <a href="#info">About</a>
+            <a onClick={() => setIsactive(false)} href="#info">
+              About
+            </a>
           </li>
           <li>
-            <a href="#topics">Course Details</a>
+            <a onClick={() => setIsactive(false)} href="#topics">
+              Course Details
+            </a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a onClick={() => setIsactive(false)} href="#blog">
+              Blog
+            </a>
           </li>
           <li>
-            <a href="#testimonials">Testimonial</a>
+            <a onClick={() => setIsactive(false)} href="#testimonials">
+              Testimonial
+            </a>
           </li>
         </ul>
       </div>
