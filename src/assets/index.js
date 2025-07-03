@@ -1,6 +1,6 @@
 import facebookicon from "./facebook.svg"
 import hero from "./hero.png"
-import instagram from "./instagram.svg"
+import instagram from "./Instagram.svg"
 import post1 from "./post1.png"
 import post2 from "./post2.png"
 import post3 from "./post3.png"
