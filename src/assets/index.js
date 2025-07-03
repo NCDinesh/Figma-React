@@ -12,7 +12,7 @@ import post8 from "./post8.png"
 import student1 from "./student1.png"
 import student2 from "./student2.png"
 import student3 from "./student3.png"
-import twitter from "./twitter.svg"
+import twitter from "./Twitter.svg"
 import bgelement1 from "./bgelement1.png"
 
 export {facebookicon, twitter,hero, instagram,post1,post2,post3,post4,post5,post6,post7,post8 , student1,student2,student3,bgelement1}
